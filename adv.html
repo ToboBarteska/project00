@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul><li><a href="img.html"><i class="fa-solid fa-house"></i>Hledaní obrázků</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-table"></i>hledání</a></li>
+        </ul>
+    </nav>
+    <div class="advanced-search-container">
+        <h2>Advanced Search</h2>
+        <form method="get" action="https://www.google.com/search">
+            <label >Najdi stránky s <input type="text" name="as_q" placeholder="all these words" class="advanced-input"></label>
+            <label >Najdi stránky s <input type="text" name="as_epq" placeholder="this exact word or phrase" class="advanced-input"></label>
+            <label >Najdi stránky s <input type="text" name="as_oq" placeholder="any of these words" class="advanced-input"></label>
+            <label >Najdi stránky s <input type="text" name="as_eq" placeholder="none of these words" class="advanced-input"></label>
+            <button type="submit" class="advanced-button">Advanced Search</button>
+        </form>
+    </div>
+</body>
+</html>
